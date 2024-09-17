@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "PegasusBookings",
+    "projectName": "Pegasus Bookings",
+    "summary": "Pegasus Bookings is a web-based application designed for managing room reservations. It allows users to browse available rooms, make bookings, and manage reservations efficiently. The project integrates both frontend and backend technologies to ensure smooth user interactions and real-time updates.",
+    "tech": ["Next.js","React.js","TypeScript","Tailwind CSS","Supabase"],
+    "features": ["User Authentication", "Room Management", "Booking System","User Dashboard", "Responsive Design"],
+    "imageCover": "/projects images/bookings/image1.png",
+    "images":["/projects images/bookings/image1.png","/projects images/bookings/image3.png","/projects images/bookings/image6.png","/projects images/bookings/image7.png","/projects images/bookings/image5.png","/projects images/bookings/image4.png","/projects images/bookings/image2.png"],
+    "performance":"/projects images/bookings/ScreenShot Tool -20240916023121.png",
+    "demo": "https://pegasus-bookings.vercel.app",
+    "github": "https://github.com/ibrahem-mohamedabodeif/pegasus_bookings"
+  },
+  {
+    "id": 2,
+    "title": "PegasusE-commerce",
+    "projectName": "Pegasus E-commerce",
+    "summary": "Pegasus Ecommerce is a modern web-based platform that allows users to browse and purchase products with a seamless user experience. The site includes features like product filtering, sorting, and a streamlined checkout process to ensure an optimal shopping experience. The project integrates robust technologies to create a scalable and user-friendly interface.",
+    "tech": ["React.js","JavaScript","React query","React Router","Redux","Tailwind CSS", "Supabase"],
+    "features": ["User Authentication", "Product browsing with filters and sorting", "Shopping cart and checkout system","User Dashboard", "Integration with a real-time database to manage product listings and user orders"],
+    "imageCover": "/projects images/e-commerce/e-commerce.png",
+    "images":["/projects images/e-commerce/e-commerce.png","/projects images/e-commerce/image-full.png","/projects images/e-commerce/image2.png","/projects images/e-commerce/image3.png","/projects images/e-commerce/image4.png","/projects images/e-commerce/image5.png","/projects images/e-commerce/image6.png","/projects images/e-commerce/image7.png","/projects images/e-commerce/image8.png","/projects images/e-commerce/image9.png","/projects images/e-commerce/image10.png"],
+    "performance":"/projects images/e-commerce/screencapture-googlechrome-github-io-lighthouse-viewer-2024-09-16-21_25_20 (1).png",
+    "demo": "https://pegasus-ecommerce.vercel.app/",
+    "github": "https://github.com/ibrahem-mohamedabodeif/Pegasus-Ecommerce"
+  },{
+    "id": 3,
+    "title": "PegasusDashboard",
+    "projectName": "Pegasus Dashboard",
+    "summary": "Pegasus Dashboard is an admin panel designed for managing products and sales in an ecommerce platform. It allows admins to add, edit, and delete products, as well as track sales performance through interactive charts. The dashboard provides an intuitive interface for monitoring key business metrics and managing product inventories.",
+    "tech": ["React.js","JavaScript","React query","Tailwind CSS", "Supabase"],
+    "features": ["User Authentication", "Product management (add, edit, delete products)", "Sales tracking with real-time data visualization", "Responsive Design"],
+    "imageCover": "/projects images/dashboard/image1.png",
+    "images":["/projects images/dashboard/image1.png","/projects images/dashboard/image2.png","/projects images/dashboard/image3.png"],
+    "performance":"/projects images/dashboard/screencapture-googlechrome-github-io-lighthouse-viewer-2024-09-16-21_39_49 (1).png",
+    "demo": "https://pegasus-dashboard-seven.vercel.app",
+    "github": "https://github.com/ibrahem-mohamedabodeif/pegasus-dashboard"
+  },{
+    "id": 4,
+    "title": "myPlanner",
+    "projectName": "My Planner",
+    "summary": "A personal planner for managing daily tasks and notes with an intuitive, mobile-friendly interface with features like create, track, and delete tasks and notes.",
+    "tech": ["React.js","React Router","Css"],
+    "features": ["Task creation, editing, and deletion", "Notes management", "Responsive Design"],
+    "imageCover": "/projects images/planner/image1.png",
+    "images":["/projects images/planner/image1.png","/projects images/planner/image2.png","/projects images/planner/image3.png"],
+    "performance":"/projects images/planner/screencapture-googlechrome-github-io-lighthouse-viewer-2024-09-16-21_48_03 (1).png",
+    "demo": "https://my-planner-nine.vercel.app/",
+    "github": "https://github.com/ibrahem-mohamedabodeif/my-planner"
+  }
+]

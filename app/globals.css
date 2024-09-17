@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+/* CSS for Masonry-style gallery */
+.masonry-grid {
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 25px;
+  width: 100%;
+    height: 100%;
+    display: block;
+}
+
