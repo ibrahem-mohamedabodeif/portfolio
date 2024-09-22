@@ -16,6 +16,7 @@ import Link from "next/link";
 import arrow from "@/public/klipartz.com.png";
 import { IoLogoJavascript } from "react-icons/io";
 import { Suspense } from "react";
+import Loading from "../loading";
 
 export default function Projects() {
   return (
@@ -40,7 +41,7 @@ export default function Projects() {
               index % 2 !== 0 ? "lg:ml-14" : "lg:mr-14"
             }`}
           >
-            <Suspense fallback={<div className="text-lg">Loading ...</div>}>
+            <Suspense fallback={<Loading />}>
               <Image
                 src={project.imageCover}
                 alt={project.projectName}

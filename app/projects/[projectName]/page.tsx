@@ -1,3 +1,4 @@
+import Loading from "@/app/loading";
 import projects from "@/json/projects.json";
 import Image from "next/image";
 import { Suspense } from "react";
@@ -33,14 +34,15 @@ export default function Project({
     <div className="mx-4 md:mx-20 my-10 md:my-20 font-mono">
       <div className="flex flex-col lg:flex-row gap-10 border-b pb-10">
         <div className="lg:w-1/2 w-full">
-          <Suspense fallback={<div className="text-lg">Loading ...</div>}>
-            <Image
-              src={project.imageCover}
-              alt="project cover image"
-              width={1200}
-              height={500}
-              className="shadow-2xl rounded-lg w-full object-cover"
-            />
+          <Suspense fallback={<Loading />}>
+            <div className="shadow-2xl rounded-lg object-contain">
+              <Image
+                src={project.imageCover}
+                alt="project cover image"
+                width={1200}
+                height={600}
+              />
+            </div>
           </Suspense>
           <div className="flex mt-8 gap-5 md:gap-10">
             <a
@@ -177,15 +179,15 @@ export default function Project({
         <h1 className="text-2xl md:text-3xl text-center mb-10">
           Project Presentation
         </h1>
-        <Suspense fallback={<div className="text-lg">Loading ...</div>}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <Suspense fallback={<Loading />}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
             {project.images.map((image, index) => (
               <div key={index}>
                 <Image
                   src={image}
                   alt={`project image ${index + 1}`}
-                  width={1300}
-                  height={600}
+                  width={1500}
+                  height={400}
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />
               </div>
@@ -200,14 +202,16 @@ export default function Project({
           Project Performance
         </h1>
         <div className="flex justify-center">
-          <Suspense fallback={<div className="text-lg">Loading ...</div>}>
-            <Image
-              src={project.performance}
-              alt="performance"
-              width={1500}
-              height={500}
-              className="w-full rounded-2xl shadow-2xl"
-            />
+          <Suspense fallback={<Loading />}>
+            <div>
+              <Image
+                src={project.performance}
+                alt="performance"
+                width={1500}
+                height={500}
+                className="w-full rounded-2xl shadow-2xl object-contain"
+              />
+            </div>
           </Suspense>
         </div>
       </div>
