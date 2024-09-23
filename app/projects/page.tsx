@@ -43,11 +43,11 @@ export default function Projects() {
           >
             <Suspense fallback={<Loading />}>
               <Image
-                src={project.imageCover}
+                src={project.images[0]}
                 alt={project.projectName}
                 width={1200}
                 height={50}
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg"
               />
             </Suspense>
           </div>
