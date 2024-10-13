@@ -31,8 +31,8 @@
     "summary": "Pegasus Dashboard is an admin panel designed for managing products and sales in an ecommerce platform. It allows admins to add, edit, and delete products, as well as track sales performance through interactive charts. The dashboard provides an intuitive interface for monitoring key business metrics and managing product inventories.",
     "tech": ["React.js","JavaScript","React query","Tailwind CSS", "Supabase"],
     "features": ["User Authentication", "Product management (add, edit, delete products)", "Sales tracking with real-time data visualization", "Responsive Design"],
-    "imageCover": "/projects images/dashboard/screely-1727064324029.png",
-    "images":["/projects images/dashboard/image1.png","/projects images/dashboard/image2.png","/projects images/dashboard/image3.png"],
+    "imageCover": "/projects images/dashboard/image10.png",
+    "images":["/projects images/dashboard/image10.png","/projects images/dashboard/image12.png","/projects images/dashboard/image13.png","/projects images/dashboard/image14.png", "/projects images/dashboard/screely-17270643240291.png", "/projects images/dashboard/screely-172880425529712.png"],
     "performance":"/projects images/dashboard/screencapture-googlechrome-github-io-lighthouse-viewer-2024-09-16-21_39_49 (1).png",
     "demo": "https://pegasus-dashboard-seven.vercel.app",
     "github": "https://github.com/ibrahem-mohamedabodeif/pegasus-dashboard"
