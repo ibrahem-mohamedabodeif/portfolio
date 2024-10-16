@@ -4,7 +4,7 @@ import logo from "@/app/favicon.ico";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
-import { RiContactsBook3Fill } from "react-icons/ri";
+import { TfiUser } from "react-icons/tfi";
 export default function NavBar() {
   const [open, setOpen] = useState(false);
   return (
@@ -35,13 +35,11 @@ export default function NavBar() {
         <span>Thoughts</span>
       </div>
       <Link
-        href={"/social"}
-        className="hidden lg:block border border-transparent bg-red-800 text-white rounded-lg pt-2 pb-2 pl-4 pr-4"
+        href={"/about"}
+        className="flex items-center gap-2 border border-transparent bg-red-800 text-white rounded-lg pt-2 pb-2 pl-4 pr-4"
       >
-        Social
-      </Link>
-      <Link href={"/social"} className="lg:hidden">
-        <RiContactsBook3Fill size={30} className="block text-red-700" />
+        <TfiUser size={25} />
+        <span className="hidden lg:block text-xl font-semibold">ME</span>
       </Link>
     </div>
   );
