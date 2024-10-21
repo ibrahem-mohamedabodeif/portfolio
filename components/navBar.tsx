@@ -32,7 +32,7 @@ export default function NavBar() {
       <div className="hidden lg:flex lg:gap-20">
         <Link href={"/"}>Home</Link>
         <Link href={"/projects"}>Projects</Link>
-        <span>Thoughts</span>
+        <Link href={"/thoughts"}>Thoughts</Link>
       </div>
       <Link
         href={"/about"}

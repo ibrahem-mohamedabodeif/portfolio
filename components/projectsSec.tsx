@@ -6,7 +6,9 @@ import Loading from "@/app/loading";
 export default function ProjectsSec() {
   return (
     <div className="my-10 pt-10 border-t">
-      <h1 className="text-center text-4xl font-mono mb-10">Projects</h1>
+      <h1 className="text-center text-4xl font-mono mb-10 text-red-800">
+        Projects
+      </h1>
       <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
         {projects.slice(0, 2).map((project) => (
           <div key={project.id} className="group relative">
