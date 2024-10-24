@@ -1,12 +1,10 @@
-import Image from "next/image";
-import avatar from "@/public/portrait-man-cartoon-style.png";
 import { IoMdArrowDown } from "react-icons/io";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 export default function HomeSec() {
   return (
-    <div className="mt-10 lg:mt-0 flex items-center justify-between">
-      <div className="text-xl lg:text-6xl md:text-4xl lg:space-y-5 flex flex-col items-start ">
+    <div className="mt-10 lg:mt-28 flex justify-center pb-10">
+      <div className="text-xl lg:text-6xl md:text-4xl lg:space-y-5 flex flex-col items-center ">
         <h1>Hi !</h1>
         <h1>
           I&rsquo;m <span className="text-red-800">Ibrahem Mohamed</span>,
@@ -22,7 +20,7 @@ export default function HomeSec() {
             </button>
           </a>
           <span className="text-sm lg:text-3xl md:text-xl flex justify-center items-center border rounded-full w-8 h-8 lg:w-10 lg:h-10 bg-red-800 text-white">
-            Or
+            or
           </span>
           <Link
             href={"/about"}
@@ -33,14 +31,6 @@ export default function HomeSec() {
           </Link>
         </div>
       </div>
-
-      <Image
-        src={avatar}
-        alt="avatar"
-        width={400}
-        className="w-1/2 h-56 lg:h-screen lg:w-auto md:h-auto"
-        priority
-      />
     </div>
   );
 }
