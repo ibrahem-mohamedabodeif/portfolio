@@ -3,7 +3,7 @@ import thoughts from "@/json/thoughts.json";
 import Link from "next/link";
 export default function Thoughts() {
   return (
-    <div className="h-svh">
+    <div className="">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-16 mx-5 lg:mx-20 my-20">
         {thoughts.map((article) => (
           <Link

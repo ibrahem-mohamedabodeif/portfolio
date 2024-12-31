@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "portfolio that presented my skills and works cv",
+  description: "Portfolio showcasing my skills and work experience",
 };
 
 export default function RootLayout({
@@ -26,17 +26,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
-        <div className="my-5 mx-8">
+        <header className="py-4 px-4 sm:px-6 lg:px-8">
           <NavBar />
-        </div>
-        {children}
-        <div>
+        </header>
+        <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8">
+          {children}
+        </main>
+        <footer className="mt-auto">
           <Footer />
-        </div>
+        </footer>
       </body>
     </html>
   );
