@@ -11,7 +11,7 @@ export default function HomeSec() {
         </h1>
         <h1>Frontend developer.</h1>
         <div className="flex flex-col gap-5 items-center">
-          <a href="/Ibrahem-Mohamed-frontend-develover.pdf" download>
+          <a href="/Ibrahem-Mohamed(front-end-developer).pdf" download>
             <button className="mt-5 lg:mt-10 flex items-center gap-2 text-sm lg:text-2xl md:text-xl text-gray-700 tracking-wide">
               <div className="border rounded-full p-0.5 bg-red-800 text-white">
                 <IoMdArrowDown size={25} />

@@ -180,14 +180,14 @@ export default function Project({
           Project Presentation
         </h1>
         <Suspense fallback={<Loading />}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+          <div className="columns-1 sm:columns-2 lg:columns-2 gap-5 space-y-5">
             {project.images.map((image, index) => (
-              <div key={index}>
+              <div key={index} className="break-inside-avoid">
                 <Image
                   src={image}
                   alt={`project image ${index + 1}`}
                   width={1500}
-                  height={400}
+                  height={1500}
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />
               </div>
