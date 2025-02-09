@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function HomeSec() {
   return (
     <div className="mt-10 lg:mt-28 flex justify-center pb-10">
-      <div className="text-xl lg:text-6xl md:text-4xl lg:space-y-5 flex flex-col items-center ">
+      <div className="text-xl lg:text-6xl md:text-4xl lg:space-y-5 flex flex-col items-center text-black ">
         <h1>Hi !</h1>
         <h1>
           I&rsquo;m <span className="text-red-800">Ibrahem Mohamed</span>,
